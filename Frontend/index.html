@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AICTE Chat Bot</title>
+
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">AICTE Chatbot
+            <i id="chat-icon" style="color: #fff;" class="fa-solid fa-paper-plane-top"></i>
+            <!-- <i class="fa-solid fa-paper-plane-top"></i> -->
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <!--it show time when chatbot started-->
+                            <h5 id="chat-timestamp"></h5> 
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+                             <!-- Chatbot Icon -->
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon_a" style="color: #333;" class="fa fa-fw fa-send"
+                                    ></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script>
+// user input
+$("#chat-icon_a").click(function(){
+    var input = $('#textInput').val();
+
+  
+    //ajax to get input and send output to nodejs file
+    // console.log(input);
+    $.ajax({
+                    url: 'http://localhost:3000/getresonse?data='+input,
+                    type: 'GET',
+                    success: function(result){
+                        // console.log(result.data);
+                        let botHtml = '<p class="botText"><span>' + result.data + '</span></p>';
+                        $("#chatbox").append(botHtml);
+
+                        document.getElementById("chat-bar-bottom").scrollIntoView(true)
+                    }
+                });
+    sendButton();
+    // enterButton();
+
+});
+
+</script>
+<script src="static/nodejs/chat.js"></script>
+
+</html>

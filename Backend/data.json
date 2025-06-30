@@ -1,0 +1,64 @@
+[ 
+  {
+    "text":" like aicte chatbot ",
+    "category": "Sorry I Can't understand you"
+  },
+  {
+      "text":"hi",
+      "category":"hi there how are you"
+  },    
+  {
+      "text":"what is aicte full form",
+      "category":"All India Council for Technical Education "
+  },
+  {
+     "text":"what are you doing",
+     "category":"just knowing you"
+ },
+ {
+    "text":"what is you name",
+    "category":"Hi my name is AICTE chatbot"
+ },
+ {
+   "text":"good bye",
+   "category":"Happy to help you. Have GOOD DAY"
+},
+{
+    "text":"what are you doing",
+    "category":"Just answering you question "
+    
+},
+{
+    "text":"Where to send the queries related to portal and approval related issues for the approval process 2021 22?",
+    "category":"Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained."
+    
+},
+{
+    "text":"How can I know if my college is AICTE approved?",
+    "category":"The candidates can check the name of the college from the list of AICTE approved college. "
+    
+},
+{
+    "text":"What is the full form of AICTE?",
+    "category":"AICTE stands for All India Council of Technical Education. "
+    
+},
+{
+    "text":"How can we take admission in AICTE approved colleges?",
+    "category":"he admission process will depend on the college and course. Some may provide admission based on merit while others on the entrance exam. "
+    
+},
+{
+    "text":"How to delete old faculty details?",
+    "category":"Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute in Faculty Details tab. "
+    
+},
+{
+    "text":" I like AICTE CHATBOT ",
+    "category": "Thanks, you just made my day"
+},
+{
+    "text":" Bye ",
+    "category": "Happy to help you. Have GOOD DAY"
+}
+]

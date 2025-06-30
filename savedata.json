@@ -1,0 +1,199 @@
+{
+    "classifier": {
+        "classFeatures": {
+            "Thanks, you just made my day": {
+                "2": 3,
+                "3": 3
+            },
+            "hi there how are you": {
+                "4": 2
+            },
+            "All India Council for Technical Education": {
+                "2": 2,
+                "5": 2,
+                "6": 2
+            },
+            "Hi my name is AICTE chatbot": {
+                "7": 2
+            },
+            "Happy to help you. Have GOOD DAY": {
+                "8": 2,
+                "9": 2
+            },
+            "Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained.": {
+                "0": 2,
+                "1": 2,
+                "10": 2,
+                "11": 2,
+                "12": 2,
+                "13": 2,
+                "14": 2,
+                "15": 2,
+                "16": 2
+            },
+            "The candidates can check the name of the college from the list of AICTE approved college.": {
+                "2": 2,
+                "14": 2,
+                "17": 2,
+                "18": 2
+            },
+            "AICTE stands for All India Council of Technical Education.": {
+                "2": 2,
+                "5": 2,
+                "6": 2
+            },
+            "he admission process will depend on the college and course. Some may provide admission based on merit while others on the entrance exam.": {
+                "2": 2,
+                "14": 2,
+                "18": 2,
+                "19": 2
+            },
+            "Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute in Faculty Details tab.": {
+                "20": 2,
+                "21": 2,
+                "22": 2,
+                "23": 2
+            }
+        },
+        "classTotals": {
+            "Thanks, you just made my day": 3,
+            "hi there how are you": 2,
+            "All India Council for Technical Education": 2,
+            "Hi my name is AICTE chatbot": 2,
+            "Happy to help you. Have GOOD DAY": 2,
+            "Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained.": 2,
+            "The candidates can check the name of the college from the list of AICTE approved college.": 2,
+            "AICTE stands for All India Council of Technical Education.": 2,
+            "he admission process will depend on the college and course. Some may provide admission based on merit while others on the entrance exam.": 2,
+            "Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute in Faculty Details tab.": 2
+        },
+        "totalExamples": 12,
+        "smoothing": 1
+    },
+    "docs": [
+        {
+            "label": "Thanks, you just made my day",
+            "text": [
+                "aict",
+                "chatbot"
+            ]
+        },
+        {
+            "label": "hi there how are you",
+            "text": [
+                "hi"
+            ]
+        },
+        {
+            "label": "All India Council for Technical Education",
+            "text": [
+                "aict",
+                "full",
+                "form"
+            ]
+        },
+        {
+            "label": "Hi my name is AICTE chatbot",
+            "text": [
+                "name"
+            ]
+        },
+        {
+            "label": "Happy to help you. Have GOOD DAY",
+            "text": [
+                "good",
+                "bai"
+            ]
+        },
+        {
+            "label": "Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained.",
+            "text": [
+                "send",
+                "queri",
+                "relat",
+                "portal",
+                "approv",
+                "relat",
+                "issu",
+                "approv",
+                "process",
+                "2021",
+                "22"
+            ]
+        },
+        {
+            "label": "The candidates can check the name of the college from the list of AICTE approved college.",
+            "text": [
+                "know",
+                "colleg",
+                "aict",
+                "approv"
+            ]
+        },
+        {
+            "label": "AICTE stands for All India Council of Technical Education.",
+            "text": [
+                "full",
+                "form",
+                "aict"
+            ]
+        },
+        {
+            "label": "he admission process will depend on the college and course. Some may provide admission based on merit while others on the entrance exam.",
+            "text": [
+                "admiss",
+                "aict",
+                "approv",
+                "colleg"
+            ]
+        },
+        {
+            "label": "Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute in Faculty Details tab.",
+            "text": [
+                "delet",
+                "old",
+                "faculti",
+                "detail"
+            ]
+        },
+        {
+            "label": "Thanks, you just made my day",
+            "text": [
+                "aict",
+                "chatbot"
+            ]
+        }
+    ],
+    "features": {
+        "22": 1,
+        "2021": 1,
+        "aict": 6,
+        "chatbot": 2,
+        "hi": 1,
+        "full": 2,
+        "form": 2,
+        "name": 1,
+        "good": 1,
+        "bai": 1,
+        "send": 1,
+        "queri": 1,
+        "relat": 2,
+        "portal": 1,
+        "approv": 4,
+        "issu": 1,
+        "process": 1,
+        "know": 1,
+        "colleg": 2,
+        "admiss": 1,
+        "delet": 1,
+        "old": 1,
+        "faculti": 1,
+        "detail": 1
+    },
+    "stemmer": {},
+    "lastAdded": 11,
+    "events": {
+        "_events": {},
+        "_eventsCount": 0
+    }
+}
